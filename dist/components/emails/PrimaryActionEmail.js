@@ -14,7 +14,7 @@ var __createBinding = (this && this.__createBinding) || (Object.create ? (functi
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
     if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-        desc = { enumerable: true, get: function() { return m[k]; } };
+      desc = { enumerable: true, get: function() { return m[k]; } };
     }
     Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
@@ -41,7 +41,7 @@ var EmailTemplate = function (_a) {
     var actionLabel = _a.actionLabel, buttonText = _a.buttonText, href = _a.href;
     return (React.createElement(components_1.Html, null,
         React.createElement(components_1.Head, null),
-        React.createElement(components_1.Preview, null, "The marketplace for high-quality digital art."),
+        React.createElement(components_1.Preview, null, "The marketplace for high-quality digital goods."),
         React.createElement(components_1.Body, { style: main },
             React.createElement(components_1.Container, { style: container },
                 React.createElement(components_1.Img, { src: "".concat(process.env.NEXT_PUBLIC_SERVER_URL, "/favicon.png"), width: '150', height: '150', alt: 'Artify', style: logo }),

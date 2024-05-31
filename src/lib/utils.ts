@@ -52,7 +52,7 @@ export function constructMetadata({
       ],
     },
     icons,
-    metadataBase: new URL('https://digitalhippo.up.railway.app'),
+    metadataBase: new URL('https://artify-production-700a.up.railway.app'),
     ...(noIndex && {
       robots: {
         index: false,

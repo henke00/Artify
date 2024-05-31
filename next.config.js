@@ -8,7 +8,7 @@ const nextConfig = {
 			},
 			{
 				protocol: "https",
-				//hostname: "railway url here",
+				hostname: "https://artify-production-700a.up.railway.app",
 			},
 		],
 	},

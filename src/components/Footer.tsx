@@ -3,6 +3,7 @@
 import { usePathname } from 'next/navigation'
 import MaxWidthWrapper from './MaxWidthWrapper'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Footer = () => {
     const pathname = usePathname()
@@ -19,7 +20,7 @@ const Footer = () => {
             {pathsToMinimize.includes(pathname) ? null : (
                 <div className='pb-8 pt-16'>
                 <div className='flex justify-center'>
-                    <img src='/favicon.png' className='h-20 w-20' alt='logo' />
+                    <Image src='/favicon.png' alt='logo' width={80} height={80} />
                 </div>
                 </div>
             )}
